@@ -25,7 +25,7 @@ SECRET_KEY = 'd!skm%d+43g2l1uo$^)1$ssi@8+9k3&@^qdqbf4q=82e@l6vbh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'barnesapp',
 ]
 
 MIDDLEWARE = [
